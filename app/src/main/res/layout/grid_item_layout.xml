@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_margin="6dp"
+        android:textSize="32sp"
+        android:textColor="@color/white"
+        app:cornerRadius="36dp"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton">
+
+    </com.google.android.material.button.MaterialButton>
+
+
+</RelativeLayout>
